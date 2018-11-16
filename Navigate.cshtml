@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Request/Message sent";
+}
+<h3>@ViewBag.Message</h3>
+
+<div class="form-group">
+    @Html.ActionLink("Resend", "Index", "Home", new { area = "" }, new { @class = "btn btn-primary btn-lg" })
+  </div>
